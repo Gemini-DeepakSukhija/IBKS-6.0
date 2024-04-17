@@ -1,0 +1,6 @@
+@IBKSTicketTrackingSystemAPI_HostAddress = http://localhost:5027
+
+GET {{IBKSTicketTrackingSystemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

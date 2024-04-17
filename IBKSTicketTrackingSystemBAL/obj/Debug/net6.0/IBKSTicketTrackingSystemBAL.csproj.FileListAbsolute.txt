@@ -1,0 +1,17 @@
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.deps.json
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.dll
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.pdb
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.csproj.AssemblyReference.cache
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.AssemblyInfoInputs.cache
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.AssemblyInfo.cs
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.csproj.CoreCompileInputs.cache
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.csproj.CopyComplete
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.dll
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemBAL.dll
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\IBKSTicketTrackingSystemBAL.pdb
+C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemBAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemBAL.dll
