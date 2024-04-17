@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+PO/H+rg6VPAKuc6IdGSMmVwcnIqjk3vV+fZta9/SQ7Ckg6Qe5OoZGzW9s8Elxd6pHmtloCsrQFLUa9t5GjVEg==",
+  "dgSpecHash": "ORexD8utui289SVukRaOfGopF7Z2Kg1S2aWW6cX5G9pjXHGYrc7sAHhLmfxklXShh3PFPKHAmnbaWwZLHMLbOA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
+  "projectFilePath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deepak.sukhija\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\deepak.sukhija\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

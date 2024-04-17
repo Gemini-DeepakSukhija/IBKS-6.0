@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = IBKSTicketTrackingSystemBAL
+build_property.RootNamespace = IBKSTicketTrackingSystemBal
 build_property.ProjectDir = C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemBAL\

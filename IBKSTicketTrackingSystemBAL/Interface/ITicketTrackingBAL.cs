@@ -3,9 +3,9 @@
 namespace IBKSTicketTrackingSystemBAL.Interface
 {
     /// <summary>
-    /// Interface for TicketTrackingBAL
+    /// Interface for TicketTrackingBal
     /// </summary>
-    public interface ITicketTrackingBAL
+    public interface ITicketTrackingBal
     {
         /// <summary>
         /// Method to get all the tickets

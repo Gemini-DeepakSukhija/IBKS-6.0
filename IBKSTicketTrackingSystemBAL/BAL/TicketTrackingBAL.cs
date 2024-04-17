@@ -1,25 +1,30 @@
 ﻿using IBKSTicketTrackingSystemBAL.Interface;
+using IBKSTicketTrackingSystemDAL.DAL;
 using IBKSTicketTrackingSystemDAL.Interface;
 using IBKSTicketTrackingSystemDTO.DTOs;
+using Microsoft.Extensions.Logging;
+using System.Runtime.ExceptionServices;
 
 namespace IBKSTicketTrackingSystemBAL.BAL
 {
     /// <summary>
     /// Class to handle all the business related operations for Ticket tracking
     /// </summary>
-    public class TicketTrackingBAL: ITicketTrackingBAL
+    public class TicketTrackingBal: ITicketTrackingBal
     {
         /// <summary>
         /// Object for TicketTrackingRepository
         /// </summary>
-        private ITicketTrackingDal _ticketTrackingDal;
+        private readonly ITicketTrackingDal _ticketTrackingDal;
+        private readonly ILogger<TicketTrackingBal> _logger;
 
         /// <summary>
         /// Constuctor to initiate members 
         /// </summary>
-        public TicketTrackingBAL(ITicketTrackingDal ticketTrackingDal)
+        public TicketTrackingBal(ITicketTrackingDal ticketTrackingDal, ILogger<TicketTrackingBal> logger)
         {
             _ticketTrackingDal = ticketTrackingDal;
+            _logger = logger;
         }
 
         /// <summary>
@@ -37,7 +42,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return tickets;
@@ -58,7 +64,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -78,7 +85,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -99,7 +107,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -124,7 +133,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticketDropDownData;

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDAL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDTO", "IBKSTicketTrackingSystemDTO\IBKSTicketTrackingSystemDTO.csproj", "{8E9B8933-6D05-4BB5-A658-6C87DE7055C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemBAL", "IBKSTicketTrackingSystemBAL\IBKSTicketTrackingSystemBAL.csproj", "{F6A27388-26D8-42D6-8590-D77FDCF7C502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemBal", "IBKSTicketTrackingSystemBAL\IBKSTicketTrackingSystemBal.csproj", "{F6A27388-26D8-42D6-8590-D77FDCF7C502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
