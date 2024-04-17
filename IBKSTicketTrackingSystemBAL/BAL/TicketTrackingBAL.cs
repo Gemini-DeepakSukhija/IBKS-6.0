@@ -12,14 +12,14 @@ namespace IBKSTicketTrackingSystemBAL.BAL
         /// <summary>
         /// Object for TicketTrackingRepository
         /// </summary>
-        private ITicketTrackingDAL _ticketTrackingDAL;
+        private ITicketTrackingDal _ticketTrackingDal;
 
         /// <summary>
         /// Constuctor to initiate members 
         /// </summary>
-        public TicketTrackingBAL(ITicketTrackingDAL ticketTrackingDAL)
+        public TicketTrackingBAL(ITicketTrackingDal ticketTrackingDal)
         {
-            _ticketTrackingDAL = ticketTrackingDAL;
+            _ticketTrackingDal = ticketTrackingDal;
         }
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                tickets = _ticketTrackingDAL.GetAllTickets();
+                tickets = _ticketTrackingDal.GetAllTickets();
 
             }
             catch (Exception ex)
@@ -53,7 +53,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                ticket = _ticketTrackingDAL.AddTicket(ticketDetail);
+                ticket = _ticketTrackingDal.AddTicket(ticketDetail);
 
             }
             catch (Exception ex)
@@ -73,7 +73,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                _ticketTrackingDAL.UpdateTicket(ticketDetail);
+                _ticketTrackingDal.UpdateTicket(ticketDetail);
 
             }
             catch (Exception ex)
@@ -94,7 +94,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                ticket = _ticketTrackingDAL.GetTicketDetail(id);
+                ticket = _ticketTrackingDal.GetTicketDetail(id);
 
             }
             catch (Exception ex)
@@ -115,10 +115,10 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                ticketDropDownData.Modules = _ticketTrackingDAL.GetAllModules();
-                ticketDropDownData.Statuses = _ticketTrackingDAL.GetAllStatuses();
-                ticketDropDownData.Types = _ticketTrackingDAL.GetAllTicketTypes();
-                ticketDropDownData.Priorities = _ticketTrackingDAL.GetAllPriorities();
+                ticketDropDownData.Modules = _ticketTrackingDal.GetAllModules();
+                ticketDropDownData.Statuses = _ticketTrackingDal.GetAllStatuses();
+                ticketDropDownData.Types = _ticketTrackingDal.GetAllTicketTypes();
+                ticketDropDownData.Priorities = _ticketTrackingDal.GetAllPriorities();
 
 
             }

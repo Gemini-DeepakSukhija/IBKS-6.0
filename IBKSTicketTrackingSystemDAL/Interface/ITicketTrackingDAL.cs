@@ -5,7 +5,7 @@ namespace IBKSTicketTrackingSystemDAL.Interface
     /// <summary>
     /// Interface of TicketTrackingDAL
     /// </summary>
-    public interface ITicketTrackingDAL
+    public interface ITicketTrackingDal
     {
         /// <summary>
         /// Method to get all the tickets from DB

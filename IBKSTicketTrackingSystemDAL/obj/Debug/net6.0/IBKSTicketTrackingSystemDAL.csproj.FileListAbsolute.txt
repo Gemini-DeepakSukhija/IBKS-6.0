@@ -32,3 +32,20 @@ C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug
 C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
 C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.genruntimeconfig.cache
 C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDAL.dll
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.deps.json
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.runtimeconfig.json
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.AssemblyReference.cache
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfoInputs.cache
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfo.cs
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CoreCompileInputs.cache
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CopyComplete
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDAL.dll
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.genruntimeconfig.cache
+C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDAL.dll

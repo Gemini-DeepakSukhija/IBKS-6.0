@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj": {}
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj": {
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj",
+        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj",
         "projectName": "IBKSTicketTrackingSystemAPI",
-        "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj",
-        "packagesPath": "C:\\Users\\lalit.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\obj\\",
+        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\IBKSTicketTrackingSystemAPI.csproj",
+        "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lalit.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj": {
-                "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj"
+              "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj": {
+                "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj"
               },
-              "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
-                "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
+              "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+                "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
               }
             }
           }
@@ -95,21 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj": {
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
+        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
         "projectName": "IBKSTicketTrackingSystemBAL",
-        "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
-        "packagesPath": "C:\\Users\\lalit.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\obj\\",
+        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
+        "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lalit.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,11 +124,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
-                "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj"
+              "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
+                "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj"
               },
-              "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
-                "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
+              "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+                "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
               }
             }
           }
@@ -163,21 +164,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
+        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
         "projectName": "IBKSTicketTrackingSystemDAL",
-        "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
-        "packagesPath": "C:\\Users\\lalit.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\obj\\",
+        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
+        "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lalit.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,8 +192,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
-                "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
+              "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+                "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
               }
             }
           }
@@ -248,21 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
         "projectName": "IBKSTicketTrackingSystemDTO",
-        "projectPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
-        "packagesPath": "C:\\Users\\lalit.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalit.kumar\\Source\\Repos\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
+        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+        "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lalit.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -309,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
