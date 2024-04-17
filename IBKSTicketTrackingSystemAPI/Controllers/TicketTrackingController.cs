@@ -1,7 +1,9 @@
-﻿using IBKSTicketTrackingSystemBAL.Interface;
+﻿using IBKSTicketTrackingSystemBAL.BAL;
+using IBKSTicketTrackingSystemBAL.Interface;
+using IBKSTicketTrackingSystemDAL.DAL;
 using IBKSTicketTrackingSystemDTO.DTOs;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Net;
 
 namespace IBKSTicketTrackingSystemAPI.Controllers
 {
@@ -10,53 +12,137 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
     public class TicketTrackingController : ControllerBase
     {
         private readonly ITicketTrackingBAL _ticketTrackingBAL;
+        private readonly ILogger<TicketTrackingController> _logger;
 
-        public TicketTrackingController(ITicketTrackingBAL ticketTrackingBAL)
+        public TicketTrackingController(ITicketTrackingBAL ticketTrackingBAL, ILogger<TicketTrackingController> logger)
         {
             _ticketTrackingBAL = ticketTrackingBAL;
+            _logger = logger;
         }
 
         [Route("GetAllTickets")]
         [HttpGet]
-        public IList<TicketData> GetAllTickets()
+        public IActionResult GetAllTickets()
         {
-            if (_ticketTrackingBAL == null)
+            try
             {
-                return (IList<TicketData>)NoContent();
-                //return NotFound();
+                if (_ticketTrackingBAL == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(_ticketTrackingBAL.GetAllTickets());
             }
-            return _ticketTrackingBAL.GetAllTickets();
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong: {ex.Message}");
+                return StatusCode(500, ex.Message);
+            }
         }
 
         // GET api/<TicketTrackingController>/5
         [Route("GetTicketDetail/{id}")]
         [HttpGet]
-        public TicketDetail GetTicketDetail(int id)
+        public IActionResult GetTicketDetail(int id)
         {
-            return _ticketTrackingBAL.GetTicketDetail(id);
+            try
+            {
+                var result = _ticketTrackingBAL.GetTicketDetail(id);
+
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong: {ex.Message}");
+                return StatusCode(500, ex.Message);
+            }
         }
 
         // POST api/<TicketTrackingController>
         [Route("AddTicket")]
         [HttpPost]
-        public void AddTicket([FromBody] TicketDetail ticket)
+        public IActionResult AddTicket([FromBody] TicketDetail ticket)
         {
-            _ticketTrackingBAL.AddTicket(ticket);
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    if (ticket == null)
+                    {
+                        return BadRequest();
+                    }
+
+                    var result = _ticketTrackingBAL.AddTicket(ticket);
+
+                    return Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Something went wrong: {ex.Message}");
+                    return StatusCode(500, ex.Message);
+                }
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
         }
 
         // PUT api/<TicketTrackingController>/5
         [Route("UpdateTicket")]
         [HttpPut]
-        public void UpdateTicket([FromBody] TicketDetail ticket)
+        public IActionResult UpdateTicket([FromBody] TicketDetail ticket)
         {
-            _ticketTrackingBAL.UpdateTicket(ticket);
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    if (ticket == null)
+                    {
+                        return BadRequest();
+                    }
+
+                    var result = _ticketTrackingBAL.UpdateTicket(ticket);
+
+                    return Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Something went wrong: {ex.Message}");
+                    return StatusCode(500, ex.Message);
+                }
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
         }
 
         [Route("GetInitialDropDownDataToAddTicket")]
         [HttpGet]
-        public TicketDropDownData GetInitialDropDownDataToAddTicket()
+        public IActionResult GetInitialDropDownDataToAddTicket()
         {
-            return _ticketTrackingBAL.GetInitialDropDownDataToAddTicket();
+            try
+            {
+                var result = _ticketTrackingBAL.GetInitialDropDownDataToAddTicket();
+
+                if (result == null)
+                {
+                    return UnprocessableEntity();
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong: {ex.Message}");
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }

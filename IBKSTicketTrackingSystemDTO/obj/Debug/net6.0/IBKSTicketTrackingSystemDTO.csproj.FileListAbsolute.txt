@@ -10,3 +10,15 @@ C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDT
 C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDTO.dll
 C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
 C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDTO.dll
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.deps.json
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.csproj.AssemblyReference.cache
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.AssemblyInfoInputs.cache
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.AssemblyInfo.cs
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.csproj.CoreCompileInputs.cache
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDTO.dll
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDTO\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDTO.dll

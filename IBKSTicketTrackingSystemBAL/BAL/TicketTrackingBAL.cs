@@ -37,7 +37,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-
+                throw;
             }
 
             return tickets;
@@ -53,12 +53,12 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             try
             {
 
-                _ticketTrackingDAL.AddTicket(ticketDetail);
+                ticket = _ticketTrackingDAL.AddTicket(ticketDetail);
 
             }
             catch (Exception ex)
             {
-
+                throw;
             }
 
             return ticket;
@@ -78,7 +78,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-
+                throw;
             }
 
             return ticket;
@@ -99,7 +99,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-
+                throw;
             }
 
             return ticket;
@@ -124,7 +124,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-
+                throw;
             }
 
             return ticketDropDownData;

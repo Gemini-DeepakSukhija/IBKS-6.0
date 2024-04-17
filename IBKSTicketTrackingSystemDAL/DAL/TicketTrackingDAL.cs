@@ -75,6 +75,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
             return tickets;
         }
@@ -146,6 +147,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
 
             return ticketDetail;
@@ -190,13 +192,14 @@ namespace IBKSTicketTrackingSystemDAL.DAL
 
                 _supportContext.TicketReplies.Add(ticketReply);
                 _supportContext.SaveChanges();
+
+                return GetTicketDetail((int)ticket.Id);
             }
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
-
-            return ticket;
         }
 
         /// <summary>
@@ -238,6 +241,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
 
         }
@@ -253,12 +257,28 @@ namespace IBKSTicketTrackingSystemDAL.DAL
 
             try
             {
+                var allModules = from state in _supportContext.Applications
+                                 select new
+                                 {
+                                     Id = state.Id,
+                                     Title = state.Title,
+                                 };
 
+                foreach (var state in allModules)
+                {
+                    Module module = new Module()
+                    {
+                        Id = state.Id,
+                        Title = state.Title
+                    };
+                    modules.Add(module);
+                }
 
             }
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
             return modules;
         }
@@ -294,6 +314,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
             return ticketPriorities;
         }
@@ -329,6 +350,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
             return ticketTypes;
         }
@@ -365,6 +387,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             catch (Exception ex)
             {
                 _logger.LogError("Error occured due to ", ex);
+                throw;
             }
             return ticketStatuses;
         }

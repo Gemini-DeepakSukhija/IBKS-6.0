@@ -3,3 +3,911 @@
 2024-04-17T11:32:56.7341930+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2024-04-17T11:32:56.7385476+05:30  [INF] Hosting environment: "Development" (c3307c92)
 2024-04-17T11:32:56.7439118+05:30  [INF] Content root path: "C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T11:46:51.4609604+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T11:46:51.4758040+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T11:46:51.5075406+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T11:46:51.5256721+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T11:46:51.5384142+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T12:41:06.8393552+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T12:41:06.8455710+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T12:41:06.8601362+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T12:41:06.8628189+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T12:41:06.8651543+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T12:41:21.1267248+05:30 0HN2ULM6KUFQL:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T12:41:22.4366277+05:30 0HN2ULM6KUFQL:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:41:24.4139332+05:30 0HN2ULM6KUFQL:0000001D [INF] Executed DbCommand ("532"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T12:41:54.5322543+05:30 0HN2ULM6KUFQL:00000021 [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T12:41:54.5480966+05:30 0HN2ULM6KUFQL:00000021 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:41:54.6920330+05:30 0HN2ULM6KUFQL:00000021 [INF] Executed DbCommand ("92"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:49:07.7279325+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T12:49:07.7374269+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T12:49:07.7605487+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T12:49:07.7641130+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T12:49:07.7675986+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T12:49:19.3450343+05:30 0HN2ULQLQO0R9:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T12:49:20.6919492+05:30 0HN2ULQLQO0R9:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:49:22.4676490+05:30 0HN2ULQLQO0R9:0000001D [INF] Executed DbCommand ("283"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T12:49:48.5652679+05:30 0HN2ULQLQO0R9:0000001F [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T12:49:48.5766611+05:30 0HN2ULQLQO0R9:0000001F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:49:49.0050148+05:30 0HN2ULQLQO0R9:0000001F [INF] Executed DbCommand ("374"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:49:49.2791556+05:30 0HN2ULQLQO0R9:0000001F [INF] Executed DbCommand ("255"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:51:10.0745539+05:30 0HN2ULQLQO0R9:00000021 [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T12:51:10.1227829+05:30 0HN2ULQLQO0R9:00000021 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:51:10.8992967+05:30 0HN2ULQLQO0R9:00000021 [INF] Executed DbCommand ("765"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:51:10.9786492+05:30 0HN2ULQLQO0R9:00000021 [INF] Executed DbCommand ("75"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:51:20.1904066+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T12:51:20.1961481+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T12:51:20.2055576+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T12:51:20.2148477+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T12:51:20.2162368+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T12:51:32.4006079+05:30 0HN2ULRTAKLPO:0000001D [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T12:51:33.9525853+05:30 0HN2ULRTAKLPO:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:51:35.9112411+05:30 0HN2ULRTAKLPO:0000001D [INF] Executed DbCommand ("269"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:51:36.0873680+05:30 0HN2ULRTAKLPO:0000001D [INF] Executed DbCommand ("126"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T12:51:42.7468602+05:30 0HN2ULRTAKLPO:0000001F [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T12:51:42.7569006+05:30 0HN2ULRTAKLPO:0000001F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T12:51:42.9937734+05:30 0HN2ULRTAKLPO:0000001F [INF] Executed DbCommand ("221"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T13:02:12.5302097+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T13:02:12.5366550+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T13:02:12.5484267+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T13:02:12.5667883+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T13:02:12.5713296+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T13:02:19.6610206+05:30 0HN2UM1VQ8V6R:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T13:02:20.8798950+05:30 0HN2UM1VQ8V6R:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T13:02:22.3101378+05:30 0HN2UM1VQ8V6R:0000001D [INF] Executed DbCommand ("149"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T13:54:50.4294826+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T13:54:50.4362037+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T13:54:50.4517979+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T13:54:50.4536968+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T13:54:50.4549364+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T13:55:05.2133689+05:30 0HN2UMVCRQT1I:00000037 [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T13:55:06.4799738+05:30 0HN2UMVCRQT1I:00000037 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T13:55:11.1158853+05:30 0HN2UMVCRQT1I:00000037 [INF] Executed DbCommand ("1,925"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T13:55:47.8272830+05:30 0HN2UMVCRQT1I:00000039 [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T13:55:47.8779937+05:30 0HN2UMVCRQT1I:00000039 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T13:55:48.3524475+05:30 0HN2UMVCRQT1I:00000039 [INF] Executed DbCommand ("464"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T14:00:02.4618413+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T14:00:02.4671851+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T14:00:02.4795172+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T14:00:02.4810781+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T14:00:02.4822896+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T14:00:22.5285627+05:30 0HN2UN29T7ODA:0000001F [ERR] Something went wrong: Attempted to divide by zero. (9c2545f6)
+2024-04-17T14:00:48.9471386+05:30 0HN2UN29T7ODA:00000021 [ERR] Something went wrong: Attempted to divide by zero. (9c2545f6)
+2024-04-17T14:01:44.6138808+05:30 0HN2UN29T7ODA:00000023 [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T14:01:45.7501280+05:30 0HN2UN29T7ODA:00000023 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T14:01:51.7508128+05:30 0HN2UN29T7ODA:00000023 [INF] Executed DbCommand ("1,476"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T14:12:48.0350634+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T14:12:48.0427830+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T14:12:48.0605560+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T14:12:48.0629181+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T14:12:48.0647675+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T14:12:54.5890209+05:30 0HN2UN9E0U2QG:0000001B [INF] Inside method GetAllModules (6fabc5a0)
+2024-04-17T14:12:54.6159956+05:30 0HN2UN9E0U2QG:0000001B [INF] Inside method GetAllStatuses (3113fd8d)
+2024-04-17T14:12:55.9143918+05:30 0HN2UN9E0U2QG:0000001B [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T14:12:57.5081634+05:30 0HN2UN9E0U2QG:0000001B [INF] Executed DbCommand ("97"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [s].[Id], [s].[Title]
+FROM [Support].[Status] AS [s]" (0723d8ff)
+2024-04-17T14:12:57.5534089+05:30 0HN2UN9E0U2QG:0000001B [INF] Inside method GetAllTicketTypes (63ce07b3)
+2024-04-17T14:12:57.6892199+05:30 0HN2UN9E0U2QG:0000001B [INF] Executed DbCommand ("127"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title]
+FROM [Support].[TicketType] AS [t]" (0723d8ff)
+2024-04-17T14:12:57.6940216+05:30 0HN2UN9E0U2QG:0000001B [INF] Inside method GetAllPriorities (206722d5)
+2024-04-17T14:12:57.7455357+05:30 0HN2UN9E0U2QG:0000001B [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [p].[Id], [p].[Title]
+FROM [Support].[Priority] AS [p]" (0723d8ff)
+2024-04-17T14:15:28.5008608+05:30 0HN2UN9E0U2QG:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T14:15:28.5309835+05:30 0HN2UN9E0U2QG:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T14:15:28.6832243+05:30 0HN2UN9E0U2QG:0000001D [INF] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='3000']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T14:44:53.5430430+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T14:44:53.5509969+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T14:44:53.5691342+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T14:44:53.5713614+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T14:44:53.5732071+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T14:44:59.2378059+05:30 0HN2UNRBRTQPF:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T14:45:00.5667367+05:30 0HN2UNRBRTQPF:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T14:45:02.7483967+05:30 0HN2UNRBRTQPF:0000001D [INF] Executed DbCommand ("497"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T15:03:59.2443800+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T15:03:59.2503081+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T15:03:59.2617783+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T15:03:59.2717297+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T15:03:59.2734994+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T15:04:07.9136070+05:30 0HN2UO61A00NQ:0000001D [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T15:04:09.1642269+05:30 0HN2UO61A00NQ:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:04:11.2750871+05:30 0HN2UO61A00NQ:0000001D [INF] Executed DbCommand ("537"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T15:05:49.5652669+05:30 0HN2UO61A00NQ:0000001F [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:05:49.5899764+05:30 0HN2UO61A00NQ:0000001F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:05:50.0357825+05:30 0HN2UO61A00NQ:0000001F [INF] Executed DbCommand ("384"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:05:50.0921440+05:30 0HN2UO61A00NQ:0000001F [INF] Executed DbCommand ("43"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:19:12.4856987+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T15:19:12.4937319+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T15:19:12.5119034+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T15:19:12.5139397+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T15:19:12.5156561+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T15:19:18.3022041+05:30 0HN2UOEHH1BF5:00000017 [INF] Inside method GetAllTickets (0ece0303)
+2024-04-17T15:19:19.6031675+05:30 0HN2UOEHH1BF5:00000017 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:19:22.0270568+05:30 0HN2UOEHH1BF5:00000017 [INF] Executed DbCommand ("478"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-17T15:19:32.6820176+05:30 0HN2UOEHH1BF5:00000019 [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:19:32.6912603+05:30 0HN2UOEHH1BF5:00000019 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:19:33.0834819+05:30 0HN2UOEHH1BF5:00000019 [INF] Executed DbCommand ("335"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:19:33.1501057+05:30 0HN2UOEHH1BF5:00000019 [INF] Executed DbCommand ("46"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:19:36.8224410+05:30 0HN2UOEHH1BF5:0000001B [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:19:36.8791405+05:30 0HN2UOEHH1BF5:0000001B [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:19:37.0321039+05:30 0HN2UOEHH1BF5:0000001B [INF] Executed DbCommand ("141"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:19:42.7388516+05:30 0HN2UOEHH1BF5:0000001D [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:19:42.7424974+05:30 0HN2UOEHH1BF5:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:19:43.0044393+05:30 0HN2UOEHH1BF5:0000001D [INF] Executed DbCommand ("259"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:20:12.4034769+05:30 0HN2UOEHH1BF5:00000021 [INF] Inside method GetAllModules (6fabc5a0)
+2024-04-17T15:20:12.4077462+05:30 0HN2UOEHH1BF5:00000021 [INF] Inside method GetAllStatuses (3113fd8d)
+2024-04-17T15:20:12.4110382+05:30 0HN2UOEHH1BF5:00000021 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:20:12.4688876+05:30 0HN2UOEHH1BF5:00000021 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [s].[Id], [s].[Title]
+FROM [Support].[Status] AS [s]" (0723d8ff)
+2024-04-17T15:20:12.4766824+05:30 0HN2UOEHH1BF5:00000021 [INF] Inside method GetAllTicketTypes (63ce07b3)
+2024-04-17T15:20:12.5197618+05:30 0HN2UOEHH1BF5:00000021 [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title]
+FROM [Support].[TicketType] AS [t]" (0723d8ff)
+2024-04-17T15:20:12.5261565+05:30 0HN2UOEHH1BF5:00000021 [INF] Inside method GetAllPriorities (206722d5)
+2024-04-17T15:20:12.5716642+05:30 0HN2UOEHH1BF5:00000021 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [p].[Id], [p].[Title]
+FROM [Support].[Priority] AS [p]" (0723d8ff)
+2024-04-17T15:20:48.1604986+05:30 0HN2UOEHH1BF5:00000027 [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:20:48.1640644+05:30 0HN2UOEHH1BF5:00000027 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:20:48.4122625+05:30 0HN2UOEHH1BF5:00000027 [INF] Executed DbCommand ("244"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:20:48.4597821+05:30 0HN2UOEHH1BF5:00000027 [INF] Executed DbCommand ("44"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:21:41.6652874+05:30 0HN2UOEHH1BF5:00000029 [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:21:55.8240228+05:30 0HN2UOEHH1BF5:00000029 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:22:01.9078792+05:30 0HN2UOEHH1BF5:00000029 [ERR] Failed executing DbCommand ("548"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:22:02.2245550+05:30 0HN2UOEHH1BF5:00000029 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4d6ad489-e6e0-4986-b4f8-0c84a83fe55f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4d6ad489-e6e0-4986-b4f8-0c84a83fe55f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+2024-04-17T15:22:14.8164610+05:30 0HN2UOEHH1BF5:00000029 [ERR] Error occured due to  (79714688)
+2024-04-17T15:23:19.7701355+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T15:23:19.7763014+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T15:23:19.7900281+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T15:23:19.7916575+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T15:23:19.7930568+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T15:23:29.2509016+05:30 0HN2UOGR9HPEH:00000017 [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:23:30.5823101+05:30 0HN2UOGR9HPEH:00000017 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:23:32.7020147+05:30 0HN2UOGR9HPEH:00000017 [ERR] Failed executing DbCommand ("386"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:23:32.9901745+05:30 0HN2UOGR9HPEH:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+2024-04-17T15:23:35.6783867+05:30 0HN2UOGR9HPEH:00000017 [ERR] Error occured due to  (79714688)
+2024-04-17T15:24:35.8492166+05:30 0HN2UOGR9HPEH:00000019 [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:24:35.9216487+05:30 0HN2UOGR9HPEH:00000019 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:24:36.4341782+05:30 0HN2UOGR9HPEH:00000019 [ERR] Failed executing DbCommand ("314"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:24:36.4767520+05:30 0HN2UOGR9HPEH:00000019 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+2024-04-17T15:24:37.7806309+05:30 0HN2UOGR9HPEH:00000019 [ERR] Error occured due to  (79714688)
+2024-04-17T15:28:04.3462498+05:30 0HN2UOGR9HPEH:00000019 [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
+2024-04-17T15:28:33.2003971+05:30 0HN2UOGR9HPEI:0000000F [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:28:33.2140799+05:30 0HN2UOGR9HPEI:0000000F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:28:33.6118967+05:30 0HN2UOGR9HPEI:0000000F [ERR] Failed executing DbCommand ("356"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:28:33.6634407+05:30 0HN2UOGR9HPEI:0000000F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:696d49f5-f2a8-41e2-942f-467a5a4ef49f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+2024-04-17T15:29:59.4930043+05:30 0HN2UOGR9HPEI:0000000F [ERR] Error occured due to  (79714688)
+2024-04-17T15:30:15.2714389+05:30 0HN2UOGR9HPEI:0000000F [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
+2024-04-17T15:34:59.8547258+05:30 0HN2UOGR9HPEJ:0000001B [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:34:59.8610425+05:30 0HN2UOGR9HPEJ:0000001B [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:35:02.6367222+05:30 0HN2UOGR9HPEJ:0000001B [INF] Executed DbCommand ("1,830"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:35:41.3024967+05:30 0HN2UOGR9HPEJ:0000001D [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:35:41.3134275+05:30 0HN2UOGR9HPEJ:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:35:41.3970028+05:30 0HN2UOGR9HPEJ:0000001D [INF] Executed DbCommand ("75"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:35:45.0878084+05:30 0HN2UOGR9HPEJ:0000001D [ERR] Something went wrong: Attempted to divide by zero. (9c2545f6)
+2024-04-17T15:36:19.8020702+05:30 0HN2UOGR9HPEJ:0000001F [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:36:19.8115045+05:30 0HN2UOGR9HPEJ:0000001F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:36:20.2786461+05:30 0HN2UOGR9HPEJ:0000001F [ERR] Failed executing DbCommand ("281"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:36:20.3403254+05:30 0HN2UOGR9HPEJ:0000001F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:65c4ae2a-0784-43f3-9a38-13480be6d136
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:65c4ae2a-0784-43f3-9a38-13480be6d136
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+2024-04-17T15:36:26.5002931+05:30 0HN2UOGR9HPEJ:0000001F [ERR] Error occured due to  (79714688)
+2024-04-17T15:36:33.7543857+05:30 0HN2UOGR9HPEJ:0000001F [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
+2024-04-17T15:38:34.0526467+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T15:38:34.0585101+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T15:38:34.0775462+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T15:38:34.0796276+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T15:38:34.0813698+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T15:39:03.9944504+05:30 0HN2UOPBL2REA:0000001B [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:39:05.3523782+05:30 0HN2UOPBL2REA:0000001B [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:39:07.2812986+05:30 0HN2UOPBL2REA:0000001B [ERR] Failed executing DbCommand ("551"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T15:39:07.4981119+05:30 0HN2UOPBL2REA:0000001B [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9faaddf6-2c61-41d4-8066-0e1049e125a3
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9faaddf6-2c61-41d4-8066-0e1049e125a3
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 183
+2024-04-17T15:39:09.7732636+05:30 0HN2UOPBL2REA:0000001B [ERR] Error occured due to  (79714688)
+2024-04-17T15:39:09.8240547+05:30 0HN2UOPBL2REA:0000001B [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
+2024-04-17T15:43:29.3806298+05:30 0HN2UOPBL2REB:0000000F [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:43:29.4338358+05:30 0HN2UOPBL2REB:0000000F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:43:30.0519002+05:30 0HN2UOPBL2REB:0000000F [INF] Executed DbCommand ("541"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2024-04-17T15:43:30.6882060+05:30 0HN2UOPBL2REB:0000000F [INF] Executed DbCommand ("47"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-17T15:51:47.3762654+05:30 0HN2UOPBL2REC:0000000F [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:51:47.3868191+05:30 0HN2UOPBL2REC:0000000F [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:51:48.1292725+05:30 0HN2UOPBL2REC:0000000F [INF] Executed DbCommand ("255"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2024-04-17T15:54:05.0018103+05:30 0HN2UOPBL2REC:0000000F [INF] Executed DbCommand ("66"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-17T15:54:07.7385439+05:30 0HN2UOPBL2REC:0000000F [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:54:08.7635999+05:30 0HN2UOPBL2REC:0000000F [INF] Executed DbCommand ("197"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:54:08.9875795+05:30 0HN2UOPBL2REC:0000000F [INF] Executed DbCommand ("202"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:54:28.3123636+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T15:54:28.3173289+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T15:54:28.3310317+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T15:54:28.3327726+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T15:54:28.3341836+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T15:54:38.2491078+05:30 0HN2UP281LQ7H:0000001B [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:54:39.6462842+05:30 0HN2UP281LQ7H:0000001B [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:54:41.5786906+05:30 0HN2UP281LQ7H:0000001B [INF] Executed DbCommand ("236"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2024-04-17T15:54:43.5481696+05:30 0HN2UP281LQ7H:0000001B [INF] Executed DbCommand ("63"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-17T15:54:43.7708322+05:30 0HN2UP281LQ7H:0000001B [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:54:44.6013151+05:30 0HN2UP281LQ7H:0000001B [INF] Executed DbCommand ("219"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:54:44.8423297+05:30 0HN2UP281LQ7H:0000001B [INF] Executed DbCommand ("216"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:54:55.9524305+05:30 0HN2UP281LQ7H:0000001D [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:54:56.0072411+05:30 0HN2UP281LQ7H:0000001D [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:54:56.1680127+05:30 0HN2UP281LQ7H:0000001D [INF] Executed DbCommand ("67"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2024-04-17T15:54:59.2025556+05:30 0HN2UP281LQ7H:0000001D [INF] Executed DbCommand ("252"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-17T15:55:00.9046880+05:30 0HN2UP281LQ7H:0000001D [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:55:06.7157789+05:30 0HN2UP281LQ7H:0000001D [INF] Executed DbCommand ("255"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:55:12.0134769+05:30 0HN2UP281LQ7H:0000001D [INF] Executed DbCommand ("64"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:58:04.5915521+05:30 0HN2UP281LQ7I:00000017 [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T15:58:04.6099517+05:30 0HN2UP281LQ7I:00000017 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T15:58:05.1319361+05:30 0HN2UP281LQ7I:00000017 [INF] Executed DbCommand ("307"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2024-04-17T15:58:20.4445909+05:30 0HN2UP281LQ7I:00000017 [INF] Executed DbCommand ("64"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-17T15:58:20.6719276+05:30 0HN2UP281LQ7I:00000017 [INF] Inside method GetTicketDetail (6a240848)
+2024-04-17T15:58:20.7495205+05:30 0HN2UP281LQ7I:00000017 [INF] Executed DbCommand ("67"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-17T15:58:20.9403125+05:30 0HN2UP281LQ7I:00000017 [INF] Executed DbCommand ("184"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-17T16:04:17.1627366+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T16:04:17.1681516+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T16:04:17.1830350+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T16:04:17.1847876+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T16:04:17.1862759+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T16:04:36.6810233+05:30 0HN2UP7NIC3KM:00000017 [INF] Inside method AddTicket (2caaff6a)
+2024-04-17T16:04:37.9205527+05:30 0HN2UP7NIC3KM:00000017 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T16:04:40.0068703+05:30 0HN2UP7NIC3KM:00000017 [ERR] Failed executing DbCommand ("419"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[Ticket] ([ApplicationId], [ApplicationName], [Browser], [CreatedByOID], [Date], [Deleted], [Description], [Device], [InstalledEnvironmentId], [LastModified], [PriorityId], [Resolution], [StackTrace], [StatusId], [TicketTypeId], [Title], [Url], [UserId], [UserOID])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+SELECT [Id]
+FROM [Support].[Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
+2024-04-17T16:04:40.2640106+05:30 0HN2UP7NIC3KM:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:62769a51-b6f1-4486-b369-3d6da26e047b
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Ticket_Priority_PriorityId". The conflict occurred in database "Support", table "Support.Priority", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:62769a51-b6f1-4486-b369-3d6da26e047b
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 183
+2024-04-17T16:04:40.3270023+05:30 0HN2UP7NIC3KM:00000017 [ERR] Error occured due to  (79714688)
+2024-04-17T16:04:40.3925988+05:30 0HN2UP7NIC3KM:00000017 [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
+2024-04-17T16:47:25.0698077+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T16:47:25.0747035+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T16:47:25.0868905+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T16:47:25.0886784+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T16:47:25.0899551+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T16:53:02.1189040+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
+2024-04-17T16:53:02.1273448+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
+2024-04-17T16:53:02.1498648+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-17T16:53:02.1521518+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-17T16:53:02.1541713+05:30  [INF] Content root path: "C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-17T16:53:09.4358236+05:30 0HN2UQ2VAQT8E:00000017 [INF] Inside method GetAllModules (6fabc5a0)
+2024-04-17T16:53:11.0443525+05:30 0HN2UQ2VAQT8E:00000017 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-17T16:53:13.1922208+05:30 0HN2UQ2VAQT8E:00000017 [INF] Executed DbCommand ("254"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [a].[id] AS [Id], [a].[Title]
+FROM [Application] AS [a]" (0723d8ff)
+2024-04-17T16:53:13.2363555+05:30 0HN2UQ2VAQT8E:00000017 [INF] Inside method GetAllStatuses (3113fd8d)
+2024-04-17T16:53:13.4471876+05:30 0HN2UQ2VAQT8E:00000017 [INF] Executed DbCommand ("198"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [s].[Id], [s].[Title]
+FROM [Support].[Status] AS [s]" (0723d8ff)
+2024-04-17T16:53:13.4525161+05:30 0HN2UQ2VAQT8E:00000017 [INF] Inside method GetAllTicketTypes (63ce07b3)
+2024-04-17T16:53:13.7304104+05:30 0HN2UQ2VAQT8E:00000017 [INF] Executed DbCommand ("272"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title]
+FROM [Support].[TicketType] AS [t]" (0723d8ff)
+2024-04-17T16:53:13.7350100+05:30 0HN2UQ2VAQT8E:00000017 [INF] Inside method GetAllPriorities (206722d5)
+2024-04-17T16:53:14.0069629+05:30 0HN2UQ2VAQT8E:00000017 [INF] Executed DbCommand ("265"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [p].[Id], [p].[Title]
+FROM [Support].[Priority] AS [p]" (0723d8ff)

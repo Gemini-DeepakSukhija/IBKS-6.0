@@ -1,4 +1,6 @@
-﻿namespace IBKSTicketTrackingSystemDTO.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace IBKSTicketTrackingSystemDTO.DTOs
 {
     /// <summary>
     /// Data transfer class with detailed information of ticket
@@ -13,6 +15,8 @@
         /// <summary>
         /// Title of the ticket
         /// </summary>
+        [Required(ErrorMessage = "Please enter Title")]
+        [StringLength(250)]
         public string Title { get; set; }
 
         /// <summary>
