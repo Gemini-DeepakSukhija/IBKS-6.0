@@ -11,10 +11,10 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
     [ApiController]
     public class TicketTrackingController : ControllerBase
     {
-        private readonly ITicketTrackingBAL _ticketTrackingBAL;
+        private readonly ITicketTrackingBal _ticketTrackingBAL;
         private readonly ILogger<TicketTrackingController> _logger;
 
-        public TicketTrackingController(ITicketTrackingBAL ticketTrackingBAL, ILogger<TicketTrackingController> logger)
+        public TicketTrackingController(ITicketTrackingBal ticketTrackingBAL, ILogger<TicketTrackingController> logger)
         {
             _ticketTrackingBAL = ticketTrackingBAL;
             _logger = logger;
@@ -35,7 +35,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong: {ex.Message}");
+                _logger.LogError(ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }
@@ -58,7 +58,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong: {ex.Message}");
+                _logger.LogError(ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }
@@ -83,7 +83,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError($"Something went wrong: {ex.Message}");
+                    _logger.LogError(ex.Message);
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -113,7 +113,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError($"Something went wrong: {ex.Message}");
+                    _logger.LogError(ex.Message);
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -140,7 +140,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong: {ex.Message}");
+                _logger.LogError(ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }

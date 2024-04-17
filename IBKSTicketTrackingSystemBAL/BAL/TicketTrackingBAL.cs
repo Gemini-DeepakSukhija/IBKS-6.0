@@ -1,25 +1,30 @@
 ﻿using IBKSTicketTrackingSystemBAL.Interface;
+using IBKSTicketTrackingSystemDAL.DAL;
 using IBKSTicketTrackingSystemDAL.Interface;
 using IBKSTicketTrackingSystemDTO.DTOs;
+using Microsoft.Extensions.Logging;
+using System.Runtime.ExceptionServices;
 
 namespace IBKSTicketTrackingSystemBAL.BAL
 {
     /// <summary>
     /// Class to handle all the business related operations for Ticket tracking
     /// </summary>
-    public class TicketTrackingBAL: ITicketTrackingBAL
+    public class TicketTrackingBal: ITicketTrackingBal
     {
         /// <summary>
         /// Object for TicketTrackingRepository
         /// </summary>
-        private ITicketTrackingDAL _ticketTrackingDAL;
+        private readonly ITicketTrackingDAL _ticketTrackingDAL;
+        private readonly ILogger<TicketTrackingBal> _logger;
 
         /// <summary>
         /// Constuctor to initiate members 
         /// </summary>
-        public TicketTrackingBAL(ITicketTrackingDAL ticketTrackingDAL)
+        public TicketTrackingBal(ITicketTrackingDAL ticketTrackingDAL, ILogger<TicketTrackingBal> logger)
         {
             _ticketTrackingDAL = ticketTrackingDAL;
+            _logger = logger;
         }
 
         /// <summary>
@@ -31,13 +36,12 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             IList<TicketData> tickets = new List<TicketData>();
             try
             {
-
                 tickets = _ticketTrackingDAL.GetAllTickets();
-
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return tickets;
@@ -58,7 +62,8 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -72,13 +77,12 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             TicketDetail ticket = new TicketDetail();
             try
             {
-
                 _ticketTrackingDAL.UpdateTicket(ticketDetail);
-
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -93,13 +97,12 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             TicketDetail ticket = new TicketDetail();
             try
             {
-
                 ticket = _ticketTrackingDAL.GetTicketDetail(id);
-
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticket;
@@ -114,17 +117,15 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             TicketDropDownData ticketDropDownData = new TicketDropDownData();
             try
             {
-
                 ticketDropDownData.Modules = _ticketTrackingDAL.GetAllModules();
                 ticketDropDownData.Statuses = _ticketTrackingDAL.GetAllStatuses();
                 ticketDropDownData.Types = _ticketTrackingDAL.GetAllTicketTypes();
                 ticketDropDownData.Priorities = _ticketTrackingDAL.GetAllPriorities();
-
-
             }
             catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.Message);
+                throw new Exception("Rethrow", ex);
             }
 
             return ticketDropDownData;

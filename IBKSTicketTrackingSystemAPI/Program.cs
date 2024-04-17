@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<SupportContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection")));
-builder.Services.AddScoped<ITicketTrackingBAL, TicketTrackingBAL>();
+builder.Services.AddScoped<ITicketTrackingBal, TicketTrackingBal>();
 builder.Services.AddScoped<ITicketTrackingDAL, TicketTrackingDAL>();
 builder.Services.AddCors(options => {
     options.AddPolicy("CORSPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
