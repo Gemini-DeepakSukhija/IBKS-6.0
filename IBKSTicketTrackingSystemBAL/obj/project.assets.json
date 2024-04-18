@@ -1073,7 +1073,7 @@
           }
         }
       },
-      "IBKSTicketTrackingSystemDAL/1.0.0": {
+      "IBKSTicketTrackingSystemDal/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1083,10 +1083,10 @@
           "Serilog.Extensions.Logging.File": "3.0.0"
         },
         "compile": {
-          "bin/placeholder/IBKSTicketTrackingSystemDAL.dll": {}
+          "bin/placeholder/IBKSTicketTrackingSystemDal.dll": {}
         },
         "runtime": {
-          "bin/placeholder/IBKSTicketTrackingSystemDAL.dll": {}
+          "bin/placeholder/IBKSTicketTrackingSystemDal.dll": {}
         }
       },
       "IBKSTicketTrackingSystemDTO/1.0.0": {
@@ -3259,10 +3259,10 @@
         "version.txt"
       ]
     },
-    "IBKSTicketTrackingSystemDAL/1.0.0": {
+    "IBKSTicketTrackingSystemDal/1.0.0": {
       "type": "project",
-      "path": "../IBKSTicketTrackingSystemDAL/IBKSTicketTrackingSystemDAL.csproj",
-      "msbuildProject": "../IBKSTicketTrackingSystemDAL/IBKSTicketTrackingSystemDAL.csproj"
+      "path": "../IBKSTicketTrackingSystemDAL/IBKSTicketTrackingSystemDal.csproj",
+      "msbuildProject": "../IBKSTicketTrackingSystemDAL/IBKSTicketTrackingSystemDal.csproj"
     },
     "IBKSTicketTrackingSystemDTO/1.0.0": {
       "type": "project",
@@ -3272,8 +3272,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "IBKSTicketTrackingSystemDAL >= 1.0.0",
       "IBKSTicketTrackingSystemDTO >= 1.0.0",
+      "IBKSTicketTrackingSystemDal >= 1.0.0",
       "Serilog.Extensions.Logging.File >= 3.0.0"
     ]
   },
@@ -3283,9 +3283,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
-      "projectName": "IBKSTicketTrackingSystemBAL",
-      "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBAL.csproj",
+      "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBal.csproj",
+      "projectName": "IBKSTicketTrackingSystemBal",
+      "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\IBKSTicketTrackingSystemBal.csproj",
       "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemBAL\\obj\\",
       "projectStyle": "PackageReference",
@@ -3304,8 +3304,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
-              "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj"
+            "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDal\\IBKSTicketTrackingSystemDal.csproj": {
+              "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDal\\IBKSTicketTrackingSystemDal.csproj"
             },
             "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
               "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"

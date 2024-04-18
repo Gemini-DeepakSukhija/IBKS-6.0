@@ -1,10 +1,10 @@
-﻿using IBKSTicketTrackingSystemDAL.Interface;
-using IBKSTicketTrackingSystemDAL.Models;
+﻿using IBKSTicketTrackingSystemDal.Interface;
+using IBKSTicketTrackingSystemDal.Models;
 using IBKSTicketTrackingSystemDTO.DTOs;
 using Microsoft.Extensions.Logging;
 using TicketType = IBKSTicketTrackingSystemDTO.DTOs.TicketType;
 
-namespace IBKSTicketTrackingSystemDAL.DAL
+namespace IBKSTicketTrackingSystemDal.Dal
 {
     /// <summary>
     /// Creating class to manage all the database related operations 
@@ -74,7 +74,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to "+ ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
             return tickets;
@@ -146,7 +146,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to "+ ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
 
@@ -197,7 +197,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to "+ ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
         }
@@ -240,7 +240,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to " + ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
 
@@ -277,7 +277,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to " + ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
             return modules;
@@ -313,7 +313,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to " + ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
             return ticketPriorities;
@@ -349,7 +349,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to " + ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
             return ticketTypes;
@@ -386,7 +386,7 @@ namespace IBKSTicketTrackingSystemDAL.DAL
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error occured due to " + ex.ToString());
+                _logger.LogError(ex.ToString());
                 throw;
             }
             return ticketStatuses;

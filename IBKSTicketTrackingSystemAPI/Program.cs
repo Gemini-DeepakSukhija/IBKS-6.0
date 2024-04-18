@@ -1,8 +1,8 @@
-using IBKSTicketTrackingSystemBAL.BAL;
-using IBKSTicketTrackingSystemBAL.Interface;
-using IBKSTicketTrackingSystemDAL.DAL;
-using IBKSTicketTrackingSystemDAL.Interface;
-using IBKSTicketTrackingSystemDAL.Models;
+using IBKSTicketTrackingSystemBal.Bal;
+using IBKSTicketTrackingSystemBal.Interface;
+using IBKSTicketTrackingSystemDal.Dal;
+using IBKSTicketTrackingSystemDal.Interface;
+using IBKSTicketTrackingSystemDal.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

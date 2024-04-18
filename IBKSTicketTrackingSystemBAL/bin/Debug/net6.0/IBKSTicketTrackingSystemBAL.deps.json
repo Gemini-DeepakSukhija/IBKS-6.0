@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "IBKSTicketTrackingSystemBAL/1.0.0": {
+      "IBKSTicketTrackingSystemBal/1.0.0": {
         "dependencies": {
-          "IBKSTicketTrackingSystemDAL": "1.0.0",
           "IBKSTicketTrackingSystemDTO": "1.0.0",
+          "IBKSTicketTrackingSystemDal": "1.0.0",
           "Serilog.Extensions.Logging.File": "3.0.0"
         },
         "runtime": {
-          "IBKSTicketTrackingSystemBAL.dll": {}
+          "IBKSTicketTrackingSystemBal.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -667,7 +667,7 @@
           }
         }
       },
-      "IBKSTicketTrackingSystemDAL/1.0.0": {
+      "IBKSTicketTrackingSystemDal/1.0.0": {
         "dependencies": {
           "IBKSTicketTrackingSystemDTO": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.29",
@@ -689,7 +689,7 @@
     }
   },
   "libraries": {
-    "IBKSTicketTrackingSystemBAL/1.0.0": {
+    "IBKSTicketTrackingSystemBal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1128,7 +1128,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "IBKSTicketTrackingSystemDAL/1.0.0": {
+    "IBKSTicketTrackingSystemDal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,11 +1,11 @@
-﻿using IBKSTicketTrackingSystemBAL.Interface;
-using IBKSTicketTrackingSystemDAL.DAL;
-using IBKSTicketTrackingSystemDAL.Interface;
+﻿using IBKSTicketTrackingSystemBal.Interface;
+using IBKSTicketTrackingSystemDal.Dal;
+using IBKSTicketTrackingSystemDal.Interface;
 using IBKSTicketTrackingSystemDTO.DTOs;
 using Microsoft.Extensions.Logging;
 using System.Runtime.ExceptionServices;
 
-namespace IBKSTicketTrackingSystemBAL.BAL
+namespace IBKSTicketTrackingSystemBal.Bal
 {
     /// <summary>
     /// Class to handle all the business related operations for Ticket tracking
@@ -42,8 +42,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                throw new Exception("Rethrow", ex);
+                _logger.LogError(ex.ToString());
             }
 
             return tickets;
@@ -64,8 +63,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                throw new Exception("Rethrow", ex);
+                _logger.LogError(ex.ToString());
             }
 
             return ticket;
@@ -85,8 +83,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                throw new Exception("Rethrow", ex);
+                _logger.LogError(ex.ToString());
             }
 
             return ticket;
@@ -107,8 +104,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                throw new Exception("Rethrow", ex);
+                _logger.LogError(ex.ToString());
             }
 
             return ticket;
@@ -133,8 +129,7 @@ namespace IBKSTicketTrackingSystemBAL.BAL
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                throw new Exception("Rethrow", ex);
+                _logger.LogError(ex.ToString());
             }
 
             return ticketDropDownData;

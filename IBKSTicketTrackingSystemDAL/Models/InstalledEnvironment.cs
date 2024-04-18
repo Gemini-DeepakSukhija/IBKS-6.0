@@ -1,4 +1,4 @@
-﻿namespace IBKSTicketTrackingSystemDAL.Models;
+﻿namespace IBKSTicketTrackingSystemDal.Models;
 
 /// <summary>
 /// Imported class as replica of "InstalledEnvironment" table

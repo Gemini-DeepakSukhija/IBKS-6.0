@@ -1,6 +1,6 @@
 ﻿using IBKSTicketTrackingSystemDTO.DTOs;
 
-namespace IBKSTicketTrackingSystemBAL.Interface
+namespace IBKSTicketTrackingSystemBal.Interface
 {
     /// <summary>
     /// Interface for TicketTrackingBal

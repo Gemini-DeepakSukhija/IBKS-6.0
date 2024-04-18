@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {}
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj": {
+    "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
-        "projectName": "IBKSTicketTrackingSystemDAL",
-        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDAL.csproj",
+        "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
+        "projectName": "IBKSTicketTrackingSystemDal",
+        "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
         "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\obj\\",
         "projectStyle": "PackageReference",

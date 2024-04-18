@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace IBKSTicketTrackingSystemDAL.Models
+namespace IBKSTicketTrackingSystemDal.Models
 {
     public partial class SupportContext : DbContext
     {

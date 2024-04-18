@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace IBKSTicketTrackingSystemDAL.Models
+namespace IBKSTicketTrackingSystemDal.Models
 {
     public partial class Application
     {

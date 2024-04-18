@@ -297,7 +297,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:22:02.2245550+05:30 0HN2UOEHH1BF5:00000029 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:22:02.2245550+05:30 0HN2UOEHH1BF5:00000029 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -346,7 +346,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 181
 2024-04-17T15:22:14.8164610+05:30 0HN2UOEHH1BF5:00000029 [ERR] Error occured due to  (79714688)
 2024-04-17T15:23:19.7701355+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
 2024-04-17T15:23:19.7763014+05:30  [INF] Now listening on: "http://localhost:5027" (d826f4b8)
@@ -362,7 +362,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:23:32.9901745+05:30 0HN2UOGR9HPEH:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:23:32.9901745+05:30 0HN2UOGR9HPEH:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -411,7 +411,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 181
 2024-04-17T15:23:35.6783867+05:30 0HN2UOGR9HPEH:00000017 [ERR] Error occured due to  (79714688)
 2024-04-17T15:24:35.8492166+05:30 0HN2UOGR9HPEH:00000019 [INF] Inside method AddTicket (2caaff6a)
 2024-04-17T15:24:35.9216487+05:30 0HN2UOGR9HPEH:00000019 [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
@@ -422,7 +422,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:24:36.4767520+05:30 0HN2UOGR9HPEH:00000019 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:24:36.4767520+05:30 0HN2UOGR9HPEH:00000019 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -471,7 +471,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 181
 2024-04-17T15:24:37.7806309+05:30 0HN2UOGR9HPEH:00000019 [ERR] Error occured due to  (79714688)
 2024-04-17T15:28:04.3462498+05:30 0HN2UOGR9HPEH:00000019 [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
 2024-04-17T15:28:33.2003971+05:30 0HN2UOGR9HPEI:0000000F [INF] Inside method AddTicket (2caaff6a)
@@ -483,7 +483,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:28:33.6634407+05:30 0HN2UOGR9HPEI:0000000F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:28:33.6634407+05:30 0HN2UOGR9HPEI:0000000F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -532,7 +532,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 181
 2024-04-17T15:29:59.4930043+05:30 0HN2UOGR9HPEI:0000000F [ERR] Error occured due to  (79714688)
 2024-04-17T15:30:15.2714389+05:30 0HN2UOGR9HPEI:0000000F [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
 2024-04-17T15:34:59.8547258+05:30 0HN2UOGR9HPEJ:0000001B [INF] Inside method GetTicketDetail (6a240848)
@@ -563,7 +563,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:36:20.3403254+05:30 0HN2UOGR9HPEJ:0000001F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:36:20.3403254+05:30 0HN2UOGR9HPEJ:0000001F [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -612,7 +612,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 181
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 181
 2024-04-17T15:36:26.5002931+05:30 0HN2UOGR9HPEJ:0000001F [ERR] Error occured due to  (79714688)
 2024-04-17T15:36:33.7543857+05:30 0HN2UOGR9HPEJ:0000001F [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
 2024-04-17T15:38:34.0526467+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)
@@ -629,7 +629,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T15:39:07.4981119+05:30 0HN2UOPBL2REA:0000001B [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T15:39:07.4981119+05:30 0HN2UOPBL2REA:0000001B [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -678,7 +678,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 183
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 183
 2024-04-17T15:39:09.7732636+05:30 0HN2UOPBL2REA:0000001B [ERR] Error occured due to  (79714688)
 2024-04-17T15:39:09.8240547+05:30 0HN2UOPBL2REA:0000001B [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
 2024-04-17T15:43:29.3806298+05:30 0HN2UOPBL2REB:0000000F [INF] Inside method AddTicket (2caaff6a)
@@ -832,7 +832,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13
 SELECT [Id]
 FROM [Support].[Ticket]
 WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (627a98df)
-2024-04-17T16:04:40.2640106+05:30 0HN2UP7NIC3KM:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDAL.Models.SupportContext"'."
+2024-04-17T16:04:40.2640106+05:30 0HN2UP7NIC3KM:00000017 [ERR] An exception occurred in the database while saving changes for context type '"IBKSTicketTrackingSystemDal.Models.SupportContext"'."
 ""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Ticket_Priority_PriorityId\". The conflict occurred in database \"Support\", table \"Support.Priority\", column 'Id'.
 The statement has been terminated.
@@ -881,7 +881,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at IBKSTicketTrackingSystemDAL.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\DAL\TicketTrackingDAL.cs:line 183
+   at IBKSTicketTrackingSystemDal.DAL.TicketTrackingDAL.AddTicket(TicketDetail ticket) in C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDal\DAL\TicketTrackingDAL.cs:line 183
 2024-04-17T16:04:40.3270023+05:30 0HN2UP7NIC3KM:00000017 [ERR] Error occured due to  (79714688)
 2024-04-17T16:04:40.3925988+05:30 0HN2UP7NIC3KM:00000017 [ERR] Something went wrong: An error occurred while saving the entity changes. See the inner exception for details. (433cbf76)
 2024-04-17T16:47:25.0698077+05:30  [INF] Now listening on: "https://localhost:7282" (d826f4b8)

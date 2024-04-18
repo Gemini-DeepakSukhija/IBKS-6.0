@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IBKSTicketTrackingSystemDAL\IBKSTicketTrackingSystemDAL.csproj" />
+    <ProjectReference Include="..\IBKSTicketTrackingSystemDal\IBKSTicketTrackingSystemDal.csproj" />
     <ProjectReference Include="..\IBKSTicketTrackingSystemDTO\IBKSTicketTrackingSystemDTO.csproj" />
   </ItemGroup>
 

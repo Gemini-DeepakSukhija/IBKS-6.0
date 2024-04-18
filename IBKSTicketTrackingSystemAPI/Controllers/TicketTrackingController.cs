@@ -1,6 +1,6 @@
-﻿using IBKSTicketTrackingSystemBAL.BAL;
-using IBKSTicketTrackingSystemBAL.Interface;
-using IBKSTicketTrackingSystemDAL.DAL;
+﻿using IBKSTicketTrackingSystemBal.Bal;
+using IBKSTicketTrackingSystemBal.Interface;
+using IBKSTicketTrackingSystemDal.Dal;
 using IBKSTicketTrackingSystemDTO.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -11,12 +11,12 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
     [ApiController]
     public class TicketTrackingController : ControllerBase
     {
-        private readonly ITicketTrackingBal _ticketTrackingBAL;
+        private readonly ITicketTrackingBal _ticketTrackingBal;
         private readonly ILogger<TicketTrackingController> _logger;
 
-        public TicketTrackingController(ITicketTrackingBal ticketTrackingBAL, ILogger<TicketTrackingController> logger)
+        public TicketTrackingController(ITicketTrackingBal ticketTrackingBal, ILogger<TicketTrackingController> logger)
         {
-            _ticketTrackingBAL = ticketTrackingBAL;
+            _ticketTrackingBal = ticketTrackingBal;
             _logger = logger;
         }
 
@@ -26,16 +26,16 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
         {
             try
             {
-                if (_ticketTrackingBAL == null)
+                if (_ticketTrackingBal == null)
                 {
                     return NotFound();
                 }
 
-                return Ok(_ticketTrackingBAL.GetAllTickets());
+                return Ok(_ticketTrackingBal.GetAllTickets());
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
+                _logger.LogError(ex.ToString());
                 return StatusCode(500, ex.Message);
             }
         }
@@ -47,7 +47,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
         {
             try
             {
-                var result = _ticketTrackingBAL.GetTicketDetail(id);
+                var result = _ticketTrackingBal.GetTicketDetail(id);
 
                 if (result == null)
                 {
@@ -58,7 +58,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
+                _logger.LogError(ex.ToString());
                 return StatusCode(500, ex.Message);
             }
         }
@@ -77,13 +77,13 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                         return BadRequest();
                     }
 
-                    var result = _ticketTrackingBAL.AddTicket(ticket);
+                    var result = _ticketTrackingBal.AddTicket(ticket);
 
                     return Ok(result);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex.Message);
+                    _logger.LogError(ex.ToString());
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -107,13 +107,13 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                         return BadRequest();
                     }
 
-                    var result = _ticketTrackingBAL.UpdateTicket(ticket);
+                    var result = _ticketTrackingBal.UpdateTicket(ticket);
 
                     return Ok(result);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex.Message);
+                    _logger.LogError(ex.ToString());
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -129,7 +129,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
         {
             try
             {
-                var result = _ticketTrackingBAL.GetInitialDropDownDataToAddTicket();
+                var result = _ticketTrackingBal.GetInitialDropDownDataToAddTicket();
 
                 if (result == null)
                 {
@@ -140,7 +140,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
+                _logger.LogError(ex.ToString());
                 return StatusCode(500, ex.Message);
             }
         }

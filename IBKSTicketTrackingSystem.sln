@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemAPI", "IBKSTicketTrackingSystemAPI\IBKSTicketTrackingSystemAPI.csproj", "{D908A63B-5A1D-4367-940B-40641FDD45BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDAL", "IBKSTicketTrackingSystemDAL\IBKSTicketTrackingSystemDAL.csproj", "{8C0B4EE7-56C6-4119-BECC-B0ECFD666FF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDal", "IBKSTicketTrackingSystemDAL\IBKSTicketTrackingSystemDal.csproj", "{8C0B4EE7-56C6-4119-BECC-B0ECFD666FF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDTO", "IBKSTicketTrackingSystemDTO\IBKSTicketTrackingSystemDTO.csproj", "{8E9B8933-6D05-4BB5-A658-6C87DE7055C4}"
 EndProject

@@ -18,6 +18,6 @@
         /// <summary>
         /// ColorCode as in DB
         /// </summary>
-        public string? ColorCode { get; set; }
+        public string ColorCode { get; set; }
     }
 }

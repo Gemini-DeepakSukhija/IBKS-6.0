@@ -1,9 +1,9 @@
 ﻿using IBKSTicketTrackingSystemDTO.DTOs;
 
-namespace IBKSTicketTrackingSystemDAL.Interface
+namespace IBKSTicketTrackingSystemDal.Interface
 {
     /// <summary>
-    /// Interface of TicketTrackingDAL
+    /// Interface of TicketTrackingDal
     /// </summary>
     public interface ITicketTrackingDal
     {

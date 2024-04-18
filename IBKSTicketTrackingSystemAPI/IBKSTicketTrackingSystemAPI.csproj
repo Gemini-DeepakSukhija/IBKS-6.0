@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IBKSTicketTrackingSystemBAL\IBKSTicketTrackingSystemBal.csproj" />
+    <ProjectReference Include="..\IBKSTicketTrackingSystemBal\IBKSTicketTrackingSystemBal.csproj" />
     <ProjectReference Include="..\IBKSTicketTrackingSystemDTO\IBKSTicketTrackingSystemDTO.csproj" />
   </ItemGroup>
 
