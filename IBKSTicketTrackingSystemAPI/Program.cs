@@ -13,7 +13,7 @@ builder.Services.AddDbContext<SupportContext>(options =>options.UseSqlServer(bui
 builder.Services.AddScoped<ITicketTrackingBal, TicketTrackingBal>();
 builder.Services.AddScoped<ITicketTrackingDal, TicketTrackingDal>();
 builder.Services.AddCors(options => {
-    options.AddPolicy("CORSPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+    options.AddPolicy("CORSPolicy", builder => builder.WithOrigins("http://localhost:3000").AllowAnyOrigin().AllowAnyMethod());
 });
 
 builder.Services.AddControllers();
