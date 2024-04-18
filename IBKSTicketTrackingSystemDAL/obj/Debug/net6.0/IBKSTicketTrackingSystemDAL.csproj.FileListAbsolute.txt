@@ -1,68 +1,18 @@
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.deps.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.runtimeconfig.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.AssemblyReference.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfoInputs.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfo.cs
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CoreCompileInputs.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CopyComplete
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDAL.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.genruntimeconfig.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.deps.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.runtimeconfig.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.AssemblyReference.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfoInputs.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfo.cs
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CoreCompileInputs.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CopyComplete
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.genruntimeconfig.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.deps.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.runtimeconfig.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.AssemblyReference.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfoInputs.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.AssemblyInfo.cs
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CoreCompileInputs.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.csproj.CopyComplete
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDAL.genruntimeconfig.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.deps.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.runtimeconfig.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.AssemblyReference.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.AssemblyInfoInputs.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.AssemblyInfo.cs
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.CoreCompileInputs.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.CopyComplete
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDal.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.genruntimeconfig.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.deps.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.runtimeconfig.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.AssemblyReference.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.AssemblyInfoInputs.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.AssemblyInfo.cs
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.CoreCompileInputs.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.sourcelink.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.csproj.CopyComplete
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemDal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\IBKSTicketTrackingSystemDal.genruntimeconfig.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemDAL\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemDal.dll

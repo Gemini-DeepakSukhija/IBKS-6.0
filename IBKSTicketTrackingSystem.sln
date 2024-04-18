@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemDTO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBKSTicketTrackingSystemBal", "IBKSTicketTrackingSystemBAL\IBKSTicketTrackingSystemBal.csproj", "{F6A27388-26D8-42D6-8590-D77FDCF7C502}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{274C68A8-F75D-4772-92BE-8258E8C5D09A}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Utilities.dll = Assemblies\Utilities.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

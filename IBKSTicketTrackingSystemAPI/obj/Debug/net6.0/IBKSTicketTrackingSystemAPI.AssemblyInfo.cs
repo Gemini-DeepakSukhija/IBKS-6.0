@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IBKSTicketTrackingSystemAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eed2454c5cd6ea5e9b063da91d5da56179070dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("IBKSTicketTrackingSystemAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IBKSTicketTrackingSystemAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,324 +1,83 @@
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.exe
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.deps.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.runtimeconfig.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Humanizer.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.Async.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.AssemblyReference.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfoInputs.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfo.cs
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CoreCompileInputs.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.IBKSTicketTrackingSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.IBKSTicketTrackingSystemAPI.props
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IBKSTicketTrackingSystemAPI.props
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IBKSTicketTrackingSystemAPI.props
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\scopedcss\bundle\IBKSTicketTrackingSystemAPI.styles.css
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CopyComplete
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemAPI.dll
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.genruntimeconfig.cache
-C:\Users\deepak.sukhija\Downloads\IBKS-main\IBKS-main\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemAPI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.exe
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.deps.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.runtimeconfig.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Humanizer.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.Async.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBAL.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.AssemblyReference.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfoInputs.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfo.cs
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CoreCompileInputs.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.IBKSTicketTrackingSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.IBKSTicketTrackingSystemAPI.props
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IBKSTicketTrackingSystemAPI.props
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IBKSTicketTrackingSystemAPI.props
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\scopedcss\bundle\IBKSTicketTrackingSystemAPI.styles.css
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CopyComplete
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemAPI.dll
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.genruntimeconfig.cache
-C:\Users\lalit.kumar\Source\Repos\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.Development.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.exe
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.deps.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.runtimeconfig.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Humanizer.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.Async.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDAL.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.AssemblyReference.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfoInputs.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfo.cs
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CoreCompileInputs.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.IBKSTicketTrackingSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.IBKSTicketTrackingSystemAPI.props
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IBKSTicketTrackingSystemAPI.props
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IBKSTicketTrackingSystemAPI.props
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\scopedcss\bundle\IBKSTicketTrackingSystemAPI.styles.css
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CopyComplete
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.genruntimeconfig.cache
-C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.Development.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.exe
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.deps.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.runtimeconfig.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Humanizer.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.Async.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.AssemblyReference.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfoInputs.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfo.cs
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CoreCompileInputs.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.IBKSTicketTrackingSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.IBKSTicketTrackingSystemAPI.props
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IBKSTicketTrackingSystemAPI.props
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IBKSTicketTrackingSystemAPI.props
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\scopedcss\bundle\IBKSTicketTrackingSystemAPI.styles.css
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CopyComplete
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemAPI.dll
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.genruntimeconfig.cache
-C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemAPI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.Development.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\appsettings.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.exe
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.deps.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.runtimeconfig.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Humanizer.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\Utilities.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemBal.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDTO.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\bin\Debug\net6.0\IBKSTicketTrackingSystemDal.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.AssemblyReference.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfoInputs.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.AssemblyInfo.cs
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CoreCompileInputs.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.sourcelink.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.build.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.development.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.IBKSTicketTrackingSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.IBKSTicketTrackingSystemAPI.props
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IBKSTicketTrackingSystemAPI.props
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IBKSTicketTrackingSystemAPI.props
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\staticwebassets.pack.json
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\scopedcss\bundle\IBKSTicketTrackingSystemAPI.styles.css
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.csproj.CopyComplete
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\refint\IBKSTicketTrackingSystemAPI.dll
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.pdb
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\IBKSTicketTrackingSystemAPI.genruntimeconfig.cache
+E:\C#\GemSol\IBKS-6.0\IBKSTicketTrackingSystemAPI\obj\Debug\net6.0\ref\IBKSTicketTrackingSystemAPI.dll

@@ -1817,6 +1817,7 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2160,6 +2161,7 @@
       "path": "system.io/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2240,6 +2242,7 @@
       "path": "system.io.filesystem/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2277,6 +2280,7 @@
       "path": "system.io.filesystem.primitives/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2315,6 +2319,7 @@
       "path": "system.reflection/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2395,6 +2400,7 @@
       "path": "system.reflection.primitives/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2451,6 +2457,7 @@
       "path": "system.runtime/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2603,6 +2610,7 @@
       "path": "system.runtime.handles/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2640,6 +2648,7 @@
       "path": "system.runtime.interopservices/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2964,6 +2973,7 @@
       "path": "system.text.encoding/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3071,6 +3081,7 @@
       "path": "system.text.encoding.extensions/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3138,6 +3149,7 @@
       "path": "system.threading/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3208,6 +3220,7 @@
       "path": "system.threading.tasks/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3275,6 +3288,7 @@
       "path": "system.threading.timer/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3361,19 +3375,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\deepak.sukhija\\.nuget\\packages\\": {}
+    "C:\\Users\\r.gandhi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
+      "projectUniqueName": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
       "projectName": "IBKSTicketTrackingSystemDal",
-      "projectPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
-      "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\obj\\",
+      "projectPath": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\IBKSTicketTrackingSystemDal.csproj",
+      "packagesPath": "C:\\Users\\r.gandhi\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\r.gandhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3381,14 +3402,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.vrsmartsoft.biz/repository/nuget-hosted": {},
+        "https://nexus.vrsmartsoft.biz/repository/nuget.org-proxy/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
-              "projectPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
+            "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+              "projectPath": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj"
             }
           }
         }
@@ -3444,7 +3467,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

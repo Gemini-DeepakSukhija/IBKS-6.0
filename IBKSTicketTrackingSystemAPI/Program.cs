@@ -4,20 +4,29 @@ using IBKSTicketTrackingSystemDal.Dal;
 using IBKSTicketTrackingSystemDal.Interface;
 using IBKSTicketTrackingSystemDal.Models;
 using Microsoft.EntityFrameworkCore;
+using Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<SupportContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection")));
+builder.Services.AddDbContext<SupportContext>(options =>
+    options.UseSqlServer(SecurityHelper.Decrypt(builder.Configuration.GetConnectionString("DatabaseConnection"),
+        builder.Configuration.GetValue<string>("Key"))));
+
 builder.Services.AddScoped<ITicketTrackingBal, TicketTrackingBal>();
 builder.Services.AddScoped<ITicketTrackingDal, TicketTrackingDal>();
-builder.Services.AddCors(options => {
-    options.AddPolicy("CORSPolicy", builder => builder.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader());
+
+var allowedOrigins = builder.Configuration.GetValue<string>("AllowedOrigins").Split(";");
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CORSPolicy", builder => builder.WithOrigins(allowedOrigins).AllowAnyMethod().AllowAnyHeader());
 });
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -27,7 +36,7 @@ loggerFactory.AddFile(builder.Configuration["Logging:LogFilePath"].ToString());
 
 app.UseCors("CORSPolicy");
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

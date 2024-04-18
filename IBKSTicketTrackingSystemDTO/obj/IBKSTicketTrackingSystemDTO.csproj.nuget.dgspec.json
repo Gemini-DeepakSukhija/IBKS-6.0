@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {}
+    "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
+    "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+        "projectUniqueName": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
         "projectName": "IBKSTicketTrackingSystemDTO",
-        "projectPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
-        "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
+        "projectPath": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+        "packagesPath": "C:\\Users\\r.gandhi\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\GemSol\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\r.gandhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +27,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.vrsmartsoft.biz/repository/nuget-hosted": {},
+          "https://nexus.vrsmartsoft.biz/repository/nuget.org-proxy/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -61,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

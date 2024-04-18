@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.29",
           "Serilog.Extensions.Logging.File": "3.0.0",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "Utilities": "1.0.0.0"
         },
         "runtime": {
           "IBKSTicketTrackingSystemAPI.dll": {}
@@ -722,6 +723,14 @@
         "runtime": {
           "IBKSTicketTrackingSystemDTO.dll": {}
         }
+      },
+      "Utilities/1.0.0.0": {
+        "runtime": {
+          "Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1240,6 +1249,11 @@
     },
     "IBKSTicketTrackingSystemDTO/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
