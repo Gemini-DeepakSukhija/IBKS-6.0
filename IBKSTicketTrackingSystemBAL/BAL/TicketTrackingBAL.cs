@@ -42,7 +42,7 @@ namespace IBKSTicketTrackingSystemBal.Bal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
             }
 
             return tickets;
@@ -63,7 +63,7 @@ namespace IBKSTicketTrackingSystemBal.Bal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
             }
 
             return ticket;
@@ -83,7 +83,7 @@ namespace IBKSTicketTrackingSystemBal.Bal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
             }
 
             return ticket;
@@ -104,7 +104,7 @@ namespace IBKSTicketTrackingSystemBal.Bal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
             }
 
             return ticket;
@@ -129,7 +129,7 @@ namespace IBKSTicketTrackingSystemBal.Bal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
             }
 
             return ticketDropDownData;

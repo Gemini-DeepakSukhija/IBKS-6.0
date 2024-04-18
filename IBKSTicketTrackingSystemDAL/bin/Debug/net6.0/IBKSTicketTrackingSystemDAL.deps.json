@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "IBKSTicketTrackingSystemDAL/1.0.0": {
+      "IBKSTicketTrackingSystemDal/1.0.0": {
         "dependencies": {
           "IBKSTicketTrackingSystemDTO": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.29",
@@ -16,7 +16,7 @@
           "Serilog.Extensions.Logging.File": "3.0.0"
         },
         "runtime": {
-          "IBKSTicketTrackingSystemDAL.dll": {}
+          "IBKSTicketTrackingSystemDal.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -706,7 +706,7 @@
     }
   },
   "libraries": {
-    "IBKSTicketTrackingSystemDAL/1.0.0": {
+    "IBKSTicketTrackingSystemDal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

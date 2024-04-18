@@ -712,7 +712,7 @@
           "Serilog.Extensions.Logging.File": "3.0.0"
         },
         "runtime": {
-          "IBKSTicketTrackingSystemDAL.dll": {}
+          "IBKSTicketTrackingSystemDal.dll": {}
         }
       },
       "IBKSTicketTrackingSystemDTO/1.0.0": {

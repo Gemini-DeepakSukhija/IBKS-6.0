@@ -35,7 +35,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }
@@ -58,7 +58,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }
@@ -83,7 +83,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex.ToString());
+                    _logger.LogError("{Message}", ex.Message);
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -113,7 +113,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex.ToString());
+                    _logger.LogError("{Message}", ex.Message);
                     return StatusCode(500, ex.Message);
                 }
             }
@@ -140,7 +140,7 @@ namespace IBKSTicketTrackingSystemAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }

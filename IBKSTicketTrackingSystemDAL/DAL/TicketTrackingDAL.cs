@@ -74,7 +74,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
             return tickets;
@@ -146,7 +146,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
 
@@ -197,7 +197,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
         }
@@ -240,7 +240,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
 
@@ -277,7 +277,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
             return modules;
@@ -313,7 +313,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
             return ticketPriorities;
@@ -349,7 +349,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
             return ticketTypes;
@@ -386,7 +386,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError("{Message}", ex.Message);
                 throw;
             }
             return ticketStatuses;
