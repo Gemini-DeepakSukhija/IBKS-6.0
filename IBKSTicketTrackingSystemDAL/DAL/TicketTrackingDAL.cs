@@ -215,7 +215,7 @@ namespace IBKSTicketTrackingSystemDal.Dal
                     Id = ticket.Id,
                     Title = ticket.Title,
                     ApplicationId = ticket.ApplicationId,
-                    ApplicationName = ticket.ApplicationName,
+                    ApplicationName = _supportContext.Applications.Where(x=>x.Id==ticket.ApplicationId).Select(x=>x.Title).FirstOrDefault(),
                     Description = ticket.Description,
                     TicketTypeId = ticket.TicketTypeId,
                     StatusId = ticket.StatusId,
@@ -226,14 +226,16 @@ namespace IBKSTicketTrackingSystemDal.Dal
 
                 _supportContext.Tickets.Update(requiredTicket);
 
-                TicketReply ticketReply = new TicketReply()
+                if (!string.IsNullOrWhiteSpace(ticket.LatestReply))
                 {
-                    Tid = ticket.Id,
-                    Reply = ticket.LatestReply,
-                    ReplyDate = DateTime.UtcNow// Current time will be inserted for every new record
-                };
-
-                _supportContext.TicketReplies.Add(ticketReply);
+                    TicketReply ticketReply = new TicketReply()
+                    {
+                        Tid = ticket.Id,
+                        Reply = ticket.LatestReply,
+                        ReplyDate = DateTime.UtcNow// Current time will be inserted for every new record
+                    };
+                    _supportContext.TicketReplies.Add(ticketReply);
+                }
 
                 _supportContext.SaveChanges();
 
