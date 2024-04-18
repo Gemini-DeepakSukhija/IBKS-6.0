@@ -27,15 +27,6 @@ namespace IBKSTicketTrackingSystemDal.Models
         public virtual DbSet<TicketType> TicketTypes { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source=13.127.147.24;Initial Catalog=Support;Persist Security Info=True;User ID=App_Support;Password=Fw2qiFzM3]W4jj6*D(;Connection Timeout=300;command timeout=300");
-            }
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Application>(entity =>

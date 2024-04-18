@@ -843,3 +843,130 @@ FROM [Support].[TicketType] AS [t]" (0723d8ff)
 2024-04-18T22:12:44.5431318+05:30 80000002-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("222"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
 ""SELECT [p].[Id], [p].[Title]
 FROM [Support].[Priority] AS [p]" (0723d8ff)
+2024-04-18T22:15:04.6649083+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-18T22:15:04.6714288+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2024-04-18T22:15:04.6731627+05:30  [INF] Content root path: "C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemAPI\" (b5d60022)
+2024-04-18T22:15:18.9346519+05:30 80000012-0007-fe00-b63f-84710c7967bb [INF] Inside method GetAllTickets (0ece0303)
+2024-04-18T22:15:20.3422348+05:30 80000012-0007-fe00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:15:21.7794842+05:30 80000012-0007-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("78"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-18T22:15:25.7458257+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Inside method GetAllModules (6fabc5a0)
+2024-04-18T22:15:25.7621014+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:15:25.8005003+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [a].[id] AS [Id], [a].[Title]
+FROM [Application] AS [a]" (0723d8ff)
+2024-04-18T22:15:25.8049693+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Inside method GetAllStatuses (3113fd8d)
+2024-04-18T22:15:25.8382368+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [s].[Id], [s].[Title]
+FROM [Support].[Status] AS [s]" (0723d8ff)
+2024-04-18T22:15:25.8417435+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Inside method GetAllTicketTypes (63ce07b3)
+2024-04-18T22:15:26.0422705+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("195"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title]
+FROM [Support].[TicketType] AS [t]" (0723d8ff)
+2024-04-18T22:15:26.0458091+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Inside method GetAllPriorities (206722d5)
+2024-04-18T22:15:26.0779391+05:30 80000007-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [p].[Id], [p].[Title]
+FROM [Support].[Priority] AS [p]" (0723d8ff)
+2024-04-18T22:15:32.4766944+05:30 80000019-0000-fc00-b63f-84710c7967bb [INF] Inside method GetTicketDetail (6a240848)
+2024-04-18T22:15:32.5184327+05:30 80000019-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:15:32.8531662+05:30 80000019-0000-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("279"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:15:32.8960059+05:30 80000019-0000-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("33"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:17:18.5597130+05:30 8000002e-0005-ff00-b63f-84710c7967bb [INF] Inside method GetAllTickets (0ece0303)
+2024-04-18T22:17:18.5688608+05:30 8000002e-0005-ff00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:17:18.9227482+05:30 8000002e-0005-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("341"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationName], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]" (0723d8ff)
+2024-04-18T22:17:18.9325336+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Inside method GetAllModules (6fabc5a0)
+2024-04-18T22:17:18.9350365+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:17:18.9686242+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [a].[id] AS [Id], [a].[Title]
+FROM [Application] AS [a]" (0723d8ff)
+2024-04-18T22:17:18.9702843+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Inside method GetAllStatuses (3113fd8d)
+2024-04-18T22:17:19.0002419+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [s].[Id], [s].[Title]
+FROM [Support].[Status] AS [s]" (0723d8ff)
+2024-04-18T22:17:19.0018617+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Inside method GetAllTicketTypes (63ce07b3)
+2024-04-18T22:17:19.1765994+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("170"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title]
+FROM [Support].[TicketType] AS [t]" (0723d8ff)
+2024-04-18T22:17:19.1790442+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Inside method GetAllPriorities (206722d5)
+2024-04-18T22:17:19.2161751+05:30 80000007-0006-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='300']"
+""SELECT [p].[Id], [p].[Title]
+FROM [Support].[Priority] AS [p]" (0723d8ff)
+2024-04-18T22:17:26.6067821+05:30 80000046-0004-fd00-b63f-84710c7967bb [INF] Inside method GetTicketDetail (6a240848)
+2024-04-18T22:17:26.6093190+05:30 80000046-0004-fd00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:17:26.8802930+05:30 80000046-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("267"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:17:26.9145156+05:30 80000046-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("31"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:18:10.7241841+05:30 80000048-0004-fd00-b63f-84710c7967bb [INF] Inside method UpdateTicket (f8ee0837)
+2024-04-18T22:18:12.6606097+05:30 80000048-0004-fd00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:18:12.9397582+05:30 80000048-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("215"ms) [Parameters=["@__ticket_ApplicationId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='300']"
+""SELECT TOP(1) [a].[Title]
+FROM [Application] AS [a]
+WHERE [a].[id] = @__ticket_ApplicationId_0" (0723d8ff)
+2024-04-18T22:18:28.3130591+05:30 80000048-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("553"ms) [Parameters=["@p19='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?' (Size = 250), @p2='?' (Size = 250), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 250), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (Size = 250), @p16='?' (Size = 1000), @p17='?' (DbType = Int32), @p18='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+UPDATE [Support].[Ticket] SET [ApplicationId] = @p0, [ApplicationName] = @p1, [Browser] = @p2, [CreatedByOID] = @p3, [Date] = @p4, [Deleted] = @p5, [Description] = @p6, [Device] = @p7, [InstalledEnvironmentId] = @p8, [LastModified] = @p9, [PriorityId] = @p10, [Resolution] = @p11, [StackTrace] = @p12, [StatusId] = @p13, [TicketTypeId] = @p14, [Title] = @p15, [Url] = @p16, [UserId] = @p17, [UserOID] = @p18
+WHERE [Id] = @p19;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2024-04-18T22:18:28.3704993+05:30 80000048-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("33"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SET NOCOUNT ON;
+INSERT INTO [Support].[TicketReply] ([Reply], [ReplyDate], [TId])
+VALUES (@p0, @p1, @p2);
+SELECT [ReplyId]
+FROM [Support].[TicketReply]
+WHERE @@ROWCOUNT = 1 AND [ReplyId] = scope_identity();" (0723d8ff)
+2024-04-18T22:18:32.4352077+05:30 8000001b-0000-fc00-b63f-84710c7967bb [INF] Inside method GetTicketDetail (6a240848)
+2024-04-18T22:18:32.4376646+05:30 8000001b-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:18:32.6847457+05:30 8000001b-0000-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("244"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:18:32.7206054+05:30 8000001b-0000-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("34"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:26:39.2620853+05:30 8000000e-0007-fc00-b63f-84710c7967bb [INF] Inside method GetTicketDetail (6a240848)
+2024-04-18T22:26:39.2652363+05:30 8000000e-0007-fc00-b63f-84710c7967bb [INF] Entity Framework Core "6.0.29" initialized '"SupportContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.29"' with options: "None" (d2805559)
+2024-04-18T22:26:39.5722250+05:30 8000000e-0007-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("36"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Id], [t].[Title], [t].[ApplicationId], [t].[ApplicationName], [t].[Description], [t0].[Id] AS [TicketTypeId], [s].[Id] AS [StatusId], [p].[Id] AS [PriorityId], [t0].[Title] AS [TicketType], [s].[Title] AS [Status], [p].[Title] AS [Priority], [p].[ColorCode] AS [PriorityColorCode], [t].[InstalledEnvironmentId]
+FROM [Support].[Ticket] AS [t]
+INNER JOIN [Support].[TicketType] AS [t0] ON [t].[TicketTypeId] = [t0].[Id]
+INNER JOIN [Support].[Priority] AS [p] ON [t].[PriorityId] = [p].[Id]
+INNER JOIN [Support].[Status] AS [s] ON [t].[StatusId] = [s].[Id]
+WHERE [t].[Id] = @__p_0" (0723d8ff)
+2024-04-18T22:26:39.6039790+05:30 8000000e-0007-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("28"ms) [Parameters=["@__p_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='300']"
+""SELECT [t].[Reply]
+FROM [Support].[TicketReply] AS [t]
+INNER JOIN [Support].[Ticket] AS [t0] ON [t].[TId] = [t0].[Id]
+WHERE [t0].[Id] = @__p_0" (0723d8ff)
