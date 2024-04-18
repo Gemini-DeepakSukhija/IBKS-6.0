@@ -1,19 +1,21 @@
-﻿namespace IBKSTicketTrackingSystemDal.Models;
+﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// Imported class as replica of "User" table
-/// </summary>
-public partial class User
+namespace IBKSTicketTrackingSystemDal.Models
 {
-    public string Oid { get; set; } = null!;
+    public partial class User
+    {
+        public User()
+        {
+            Tickets = new HashSet<Ticket>();
+        }
 
-    public string? DisplayName { get; set; }
+        public string Oid { get; set; } = null!;
+        public string? DisplayName { get; set; }
+        public string? Email { get; set; }
+        public string? FullName { get; set; }
+        public DateTime? LastScannedUtc { get; set; }
 
-    public string? Email { get; set; }
-
-    public string? FullName { get; set; }
-
-    public DateTime? LastScannedUtc { get; set; }
-
-    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+        public virtual ICollection<Ticket> Tickets { get; set; }
+    }
 }

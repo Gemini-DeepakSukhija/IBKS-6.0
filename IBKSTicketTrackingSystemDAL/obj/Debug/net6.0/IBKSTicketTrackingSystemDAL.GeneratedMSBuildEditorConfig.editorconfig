@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IBKSTicketTrackingSystemDal
-build_property.ProjectDir = C:\Projects\IBKS 6.0\IBKS-6.0\IBKSTicketTrackingSystemDAL\
+build_property.ProjectDir = C:\Projects\ibks latest\IBKS-6.0\IBKSTicketTrackingSystemDAL\

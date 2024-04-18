@@ -1,15 +1,13 @@
-﻿namespace IBKSTicketTrackingSystemDal.Models;
+﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// Imported class as replica of "TicketReply" table
-/// </summary>
-public partial class TicketReply
+namespace IBKSTicketTrackingSystemDal.Models
 {
-    public int ReplyId { get; set; }
-
-    public long Tid { get; set; }
-
-    public string? Reply { get; set; }
-
-    public DateTime ReplyDate { get; set; }
+    public partial class TicketReply
+    {
+        public int ReplyId { get; set; }
+        public long Tid { get; set; }
+        public string? Reply { get; set; }
+        public DateTime ReplyDate { get; set; }
+    }
 }

@@ -1600,11 +1600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+      "projectUniqueName": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
       "projectName": "IBKSTicketTrackingSystemDTO",
-      "projectPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
+      "projectPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\IBKSTicketTrackingSystemDTO.csproj",
       "packagesPath": "C:\\Users\\deepak.sukhija\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\IBKS 6.0\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
+      "outputPath": "C:\\Projects\\ibks latest\\IBKS-6.0\\IBKSTicketTrackingSystemDTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deepak.sukhija\\AppData\\Roaming\\NuGet\\NuGet.Config",

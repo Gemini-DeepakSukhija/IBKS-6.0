@@ -1,13 +1,18 @@
-﻿namespace IBKSTicketTrackingSystemDal.Models;
+﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// Imported class as replica of "InstalledEnvironment" table
-/// </summary>
-public partial class InstalledEnvironment
+namespace IBKSTicketTrackingSystemDal.Models
 {
-    public int Id { get; set; }
+    public partial class InstalledEnvironment
+    {
+        public InstalledEnvironment()
+        {
+            Tickets = new HashSet<Ticket>();
+        }
 
-    public string? Title { get; set; }
+        public int Id { get; set; }
+        public string? Title { get; set; }
 
-    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+        public virtual ICollection<Ticket> Tickets { get; set; }
+    }
 }

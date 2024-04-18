@@ -259,23 +259,22 @@ namespace IBKSTicketTrackingSystemDal.Dal
 
             try
             {
-                var allModules = from state in _supportContext.Applications
-                                 select new
-                                 {
-                                     Id = state.Id,
-                                     Title = state.Title,
-                                 };
+                var allModules = from module in _supportContext.Applications
+                                    select new
+                                    {
+                                        Id = module.Id,
+                                        Title = module.Title,
+                                    };
 
-                foreach (var state in allModules)
+                foreach (var type in allModules)
                 {
-                    Module module = new Module()
+                    Module status = new Module()
                     {
-                        Id = state.Id,
-                        Title = state.Title
+                        Id = type.Id,
+                        Title = type.Title
                     };
-                    modules.Add(module);
+                    modules.Add(status);
                 }
-
             }
             catch (Exception ex)
             {

@@ -1,13 +1,18 @@
-﻿namespace IBKSTicketTrackingSystemDal.Models;
+﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// Imported class as replica of "LogType" table
-/// </summary>
-public partial class LogType
+namespace IBKSTicketTrackingSystemDal.Models
 {
-    public int Id { get; set; }
+    public partial class LogType
+    {
+        public LogType()
+        {
+            TicketEventLogs = new HashSet<TicketEventLog>();
+        }
 
-    public string? Title { get; set; }
+        public int Id { get; set; }
+        public string? Title { get; set; }
 
-    public virtual ICollection<TicketEventLog> TicketEventLogs { get; set; } = new List<TicketEventLog>();
+        public virtual ICollection<TicketEventLog> TicketEventLogs { get; set; }
+    }
 }

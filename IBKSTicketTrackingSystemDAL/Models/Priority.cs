@@ -1,15 +1,19 @@
-﻿namespace IBKSTicketTrackingSystemDal.Models;
+﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// Imported class as replica of "Priority" table
-/// </summary>
-public partial class Priority
+namespace IBKSTicketTrackingSystemDal.Models
 {
-    public int Id { get; set; }
+    public partial class Priority
+    {
+        public Priority()
+        {
+            Tickets = new HashSet<Ticket>();
+        }
 
-    public string? Title { get; set; }
+        public int Id { get; set; }
+        public string? Title { get; set; }
+        public string? ColorCode { get; set; }
 
-    public string? ColorCode { get; set; }
-
-    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+        public virtual ICollection<Ticket> Tickets { get; set; }
+    }
 }
